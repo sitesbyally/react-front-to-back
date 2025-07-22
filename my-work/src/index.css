@@ -153,6 +153,7 @@ input:focus {
 	width: 100px;
 	height: 40px;
 	cursor: pointer;
+	font-family: Montserrat, sans-serif;
 }
 
 .btn-primary {
