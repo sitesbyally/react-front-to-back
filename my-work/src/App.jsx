@@ -8,13 +8,13 @@ import AboutIconLink from './components/AboutIconLink';
 
 import AboutPage from './pages/AboutPage';
 
-import { FeedbackProvider } from './context/FeedbackContext';
+import FeedbackProvider from './context/FeedbackProvider';
 
 function App() {
    return (
       <FeedbackProvider>
          <Router>
-            <Header text="This will show in React dev tools" />
+            <Header /*text="This will show in React dev tools"*/ />
             <div className="container">
                <Routes>
                   <Route
